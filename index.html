@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MD GHULAM RABBANI Personal Portfolio Website</title>
+    <title>RABBANI4007 Personal Portfolio Website</title>
 
     <!-- boxicons css -->
     <link
@@ -18,7 +18,7 @@
   <body>
     <!-- header design -->
     <header class="header">
-      <a href="#" class="logo">Portfolio</a>
+      <a href="#" class="logo">RABBANI4007</a>
 
       <i class="bx bx-menu" id="menu-icon"></i>
 
@@ -35,8 +35,8 @@
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, It's Me</h3>
-        <h1>MD GHULAM RABBANI</h1>
-        <h3>And I'm a <span>Full Stack Developer</span></h3>
+        <h1>Md Ghulam Rabbani</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
           corrupti vero optio explicabo nam consectetur libero culpa incidunt
@@ -194,21 +194,34 @@
       <h2 class="heading">Contact <span>Me!</span></h2>
       <form action="#">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" id="txtFullName" placeholder="Full Name" />
+          <input
+            type="email"
+            id="txtEmailAddress"
+            placeholder="Email Address"
+          />
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email Subject" />
+          <input
+            type="number"
+            id="txtMobileNumber"
+            placeholder="Mobile Number"
+          />
+          <input type="text" id="txtEmailSubject" placeholder="Email Subject" />
         </div>
         <textarea
           name=""
-          id=""
+          id="txtMessage"
           cols="30"
           rows="10"
           placeholder="Your Message"
         ></textarea>
-        <input type="submit" value="Send Message" class="btn" />
+        <input
+          type="submit"
+          id="btnSendMessage"
+          value="Send Message"
+          class="btn"
+        />
       </form>
     </section>
 
@@ -221,6 +234,12 @@
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <!-- custom js -->
     <script src="js/script.js"></script>
