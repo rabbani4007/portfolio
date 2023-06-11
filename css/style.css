@@ -84,6 +84,12 @@ section {
 .home-img img {
   width: 35v;
   animation: floatImage 4s ease-in-out infinite;
+  border: 0.7rem solid rgba(0, 238, 255, 1);
+  border-radius: 50%;
+}
+
+.home-img:hover img {
+  box-shadow: 0 0 1rem var(--main-color);
 }
 
 @keyframes floatImage {
