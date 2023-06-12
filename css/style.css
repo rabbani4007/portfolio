@@ -84,7 +84,7 @@ section {
 .home-img img {
   width: 35v;
   animation: floatImage 4s ease-in-out infinite;
-  border: 0.7rem solid rgba(0, 238, 255, 1);
+  border: 0.7rem solid var(--main-color);
   border-radius: 50%;
 }
 
