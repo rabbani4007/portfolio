@@ -57,6 +57,10 @@ section {
   cursor: default;
 }
 
+.logo span {
+  color: var(--main-color);
+}
+
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
